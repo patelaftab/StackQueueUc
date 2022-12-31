@@ -37,6 +37,19 @@ namespace StackQueue
                     queueObj.Enque(70);
                     queueObj.Display();
                     break;
+                case 4: //UC4 Deque. 
+                    LinkedListQueue queueObj1 = new LinkedListQueue();
+                    queueObj1.Enque(56);
+                    queueObj1.Enque(30);
+                    queueObj1.Enque(70);
+                    queueObj1.Display();
+                    queueObj1.Deque();
+                    queueObj1.Display();
+                    queueObj1.Deque();
+                    queueObj1.Display();
+                    queueObj1.Deque();
+                    queueObj1.Display();
+                    break;
                 default:
                     Console.WriteLine("Choose A Valid Option");
                     break;

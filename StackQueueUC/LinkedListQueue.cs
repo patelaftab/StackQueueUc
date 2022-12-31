@@ -28,6 +28,23 @@ namespace StackQueueUC
                 Console.WriteLine($"{newNode.data} is inserted into Queue.");
             }
         }
+        public void Deque() //UC4 Deque (Deque means removing element from 1st place in Queue)
+        {
+            if (head == null)
+            {
+                Console.WriteLine("Queue is empty,Deletion is not possible");
+                return;
+            }
+            else
+            {
+                while (this.head != null)
+                {
+                    Console.WriteLine($"{head.data} has been removed.");
+                    head = head.next;
+                    break;
+                }
+            }
+        }
         public void Display()       //Display() .
         {
             Node temp = this.head;
