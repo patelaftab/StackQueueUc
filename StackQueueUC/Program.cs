@@ -10,7 +10,9 @@ namespace StackQueue
             Console.WriteLine("===============================");
             Console.WriteLine("Choose a option from below\n" +
                 "\nChoose 1): To Creating a Stack  " +
-                "\nChoose 2): To Remove Top Element From a Stack");
+                "\nChoose 2): To Remove Top Element From a Stack \n " +
+                "\nChoose 3): To Creating a Queue With Enqueue \n " +
+                "\nChoose 4): To Remove Top Element With Dequeue  \n ");
             int option=Convert.ToInt32(Console.ReadLine());
             switch(option)
             {
