@@ -30,7 +30,15 @@ namespace StackQueue
                     Console.WriteLine("Is list is empty? " + stackObject1.isEmpty());
                     stackObject1.Display();
                     break;
+                case 3: //UC3 queue. Add sequence 56 30 70 and displaying .
+                    LinkedListQueue queueObj = new LinkedListQueue();
+                    queueObj.Enque(56);
+                    queueObj.Enque(30);
+                    queueObj.Enque(70);
+                    queueObj.Display();
+                    break;
                 default:
+                    Console.WriteLine("Choose A Valid Option");
                     break;
             }
         }
